@@ -398,14 +398,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
   <footer>
+    <div class="container">
     <div class="row ">
-      <div class="col-sm-3">
-       
-        <a class="nav-link" href="#"></h1>Suporte  <span class="sr-only"></span><a name="suporte"> </a></a>
-        
-    </div>
-
-      <div class="col-sm-3">Contatos
+      
+      <div class="col-sm-4">Contatos para suporte
+    
         <div><a class="social-icon" href="https://www.linkedin.com/in/lorena-muniz-ferreira-825a2013a/"><i class="fab fa-linkedin-in"></i></a>
         <a class="social-icon" href="http://github.com/lorena-767"><i class="fab fa-github"></i></a>
         <a class="social-icon" href="https://www.instagram.com/lorenaoliveiira/"><i class="fab fa-instagram"></i></a>
@@ -413,16 +410,37 @@
       </div>
 
       
-      <div class="col-sm-3">Localização
+      <div class="col-sm-4">Localização
         <div><iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d61426.377978767916!2d-47.85911755512258!3d-15.79611538271746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1slojas%20americanas!5e0!3m2!1spt-BR!2sbr!4v1644931022651!5m2!1spt-BR!2sbr" 
-          width="200" height="100" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+          width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
       </div>
-      <div class="col-sm-3">Cadastro</div>
+      <div class="col-sm-4">Cadastro
 
+        <form action="/action_page.php">
+          <div class="mb-4 mt-4">
+            <div class="mb-4">
+              <input type="nome" class="form-control" id="nome" placeholder="Escreva seu nome" name="nome">
+            </div>
+            <input type="email" class="form-control" id="email" placeholder="escreva seu e-mail email" name="email">
+          </div>
+          <div class="mb-4">
+            <input type="password" class="form-control" id="senh" placeholder="Escolha uma senha" name="senha">
+          </div>
+          <div class="form-check mb-4">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="remember">Lembrar
+            </label>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+          
+        </form>
+      </div>
+      <div class="container-fluid"> 
     <div class="col-md-12 text-center border" id="footer2">
      <h5>Formas de pagamento</h5> 
      <div> <img src="img\logo_bandeiras.png" alt="" class="img-bandeiras-home"></div>
     </div>
+  </div>
   </footer>
   <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
 </html>
